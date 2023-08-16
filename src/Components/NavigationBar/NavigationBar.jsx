@@ -11,7 +11,7 @@ import { Sidebar, Search } from '..';
 import { fetchToken, createSessionId, moviesApi } from '../../utils';
 import { ColorModeContext } from '../../utils/ToggleColoMode';
 
-const NavBar = () => {
+const NavigationBar = () => {
   const classes = useStyles();
   const isMobile = useMediaQuery('(max-width:600px)');
   const theme = useTheme();
